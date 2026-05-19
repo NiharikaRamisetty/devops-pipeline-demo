@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CI/CD Pipeline Project</title>
+    <title>Welcome to my CI/CD Pipeline Project</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
         <div class="card">
             <h1>Automated CI/CD Pipeline Running Successfully</h1>
             <p class="subtitle">Jenkins & Docker Integration</p>
-            
+
             <div class="info-box">
                 <span class="label">Deployment Timestamp:</span>
                 <span class="timestamp">{{ timestamp }}</span>
             </div>
-            
+
             <div class="features">
                 <div class="feature">✅ Flask Web App</div>
                 <div class="feature">✅ Docker Containerized</div>
@@ -28,4 +30,5 @@
         </div>
     </div>
 </body>
+
 </html>
